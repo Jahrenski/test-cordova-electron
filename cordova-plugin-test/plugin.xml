@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-test"
+    version="0.0.1">
+    <name>Test</name>
+    <description>Cordova Test Plugin</description>
+
+    <js-module src="www/test.js" name="test">
+        <clobbers target="test" />
+    </js-module>
+
+    <!-- electron -->
+    <platform name="electron">
+        <js-module src="src/electron/TestProxy.js" name="TestProxy">
+            <runs />
+        </js-module>
+        <asset src="src/electron/addon.node" target="addon.node" />
+    </platform>
+
+</plugin>

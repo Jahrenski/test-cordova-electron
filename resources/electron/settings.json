@@ -1,0 +1,10 @@
+{
+  "browserWindow": {
+    "resizable": true,
+    "autoHideMenuBar": true,
+    "webPreferences": {
+      "nodeIntegration": true,
+      "nodeIntegrationInWorker": true
+    }
+  }
+}

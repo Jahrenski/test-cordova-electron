@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Plurilogic Inc"
+  },
+  "cordova": {
+    "id": "cordova-plugin-test",
+    "platforms": [
+      "electron"
+    ]
+  },
+  "description": "Cordova Test Plugin",
+  "devDependencies": {},
+  "engines": {
+    "cordovaDependencies": "3.0.0"
+  },
+  "name": "cordova-plugin-test",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "version": "0.0.1"
+}
